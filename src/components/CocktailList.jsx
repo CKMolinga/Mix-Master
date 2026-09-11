@@ -1,7 +1,7 @@
 import Wrapper from '../assets/wrappers/CocktailList'
 import CocktailCard from './CocktailCard'
 const CocktailList = ({ drinks }) => {
-  if (!drinks || drinks.length < 1) {
+  if (!drinks) {
     return (
       <h4 style={{ textAlign: 'center' }}>No matching cocktails found...</h4>
     )
